@@ -169,7 +169,10 @@ public class HomeFragment extends Fragment {
                 Toast.makeText(getContext(), "Blank", Toast.LENGTH_SHORT).show();
             }
             else{
-                textView.setText("Data : "+result.getContents());
+                textView.setText("Data : "+ result.getContents());
+                Toast.makeText(getContext(), result.getContents(), Toast.LENGTH_LONG).show();
+                Toast.makeText(getContext(), result.getContents(), Toast.LENGTH_LONG).show();
+                Toast.makeText(getContext(), result.getContents(), Toast.LENGTH_LONG).show();
             }
         }
         else{

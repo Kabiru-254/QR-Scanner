@@ -12,32 +12,40 @@
         android:text="Data : "
         android:padding="10dp"
         android:textColor="#000"
+        android:layout_margin="10dp"
         android:id="@+id/data_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
     <Button
-        android:textColor="#fff"
-        android:background="@color/colorPrimary"
-        android:text="Scan Bar code"
         android:id="@+id/button_scan"
-        android:layout_below="@id/data_text"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_below="@id/data_text"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Scan Bar code"
+        android:textColor="#fff" />
+
     <ImageView
         android:layout_below="@id/button_scan"
         android:adjustViewBounds="true"
         android:id="@+id/bar_code"
         android:layout_width="match_parent"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="70dp"
         android:layout_height="match_parent"/>
     <LinearLayout
-        android:layout_marginTop="-50dp"
+        android:layout_marginTop="-70dp"
         android:layout_below="@id/bar_code"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
             android:textColor="#fff"
-            android:background="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
             android:text="SHARE CODE"
             android:id="@+id/share_code"
             android:layout_width="match_parent"

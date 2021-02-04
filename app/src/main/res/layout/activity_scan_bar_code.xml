@@ -16,11 +16,13 @@
         android:layout_height="wrap_content"/>
     <Button
         android:textColor="#fff"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark"
         android:text="Scan Bar code"
         android:id="@+id/button_scan"
         android:layout_below="@id/data_text"
         android:layout_width="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
         android:layout_height="wrap_content"/>
     <ImageView
         android:layout_below="@id/button_scan"
@@ -30,14 +32,16 @@
         android:layout_marginBottom="50dp"
         android:layout_height="match_parent"/>
     <LinearLayout
-        android:layout_marginTop="-50dp"
+        android:layout_marginTop="-70dp"
         android:layout_below="@id/bar_code"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
             android:textColor="#fff"
-            android:background="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
             android:text="SHARE CODE"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
             android:id="@+id/share_code"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
